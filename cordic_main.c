@@ -1,8 +1,7 @@
 #include <math.h>
 #include <stdio.h>
-
 #include "cordic_R_fixed_point.h"
-#include "z_table.h"
+#include "table.h"
 
 /**
  * Verifies the CORDIC rotation result against reference cosine and sine values

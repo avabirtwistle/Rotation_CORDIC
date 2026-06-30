@@ -5,6 +5,7 @@
  *
  * sigma[i] = +1 if z[i] >= 0, else -1
  */
+#include "table.h"
 void cordic_R_fixed_point(int *x, int *y, int *z)
 {
     //copy input values into local variables
