@@ -120,10 +120,5 @@ int main(void)
 
     printf("\nPassed %d/%d tests using absolute error limit %d.\n",
            pass_count, num_tests, PASS_LIMIT);
-
-    printf("\nReference note:\n");
-    printf("This version matches the main-file style: start with x = 1.0 in Q15,\n");
-    printf("run CORDIC, then divide the outputs by the CORDIC gain.\n");
-
     return 0;
 }
