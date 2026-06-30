@@ -7,8 +7,9 @@
 
 //cordic microrotation arctan(2^-i) in Q15 for 0 to 14 (from lecture testbench output)
 static const int z_table[CORDIC_ITERATIONS] = {
-    25735, 15192, 8027, 4074, 2045, 1023,
-    511, 255, 127, 63, 31, 15, 7, 3, 1
+    25736, 15193, 8027, 4075, 2045,
+    1024, 512, 256, 128, 64,
+    32, 16, 8, 4, 2
 };
 
 // CORDIC processing gain for 15 iterations (0 to 14) 
