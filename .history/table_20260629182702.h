@@ -1,0 +1,6 @@
+#ifndef Z_TABLE_H
+#define Z_TABLE_H
+
+#define CORDIC_ITERATIONS 15
+#define CORDIC_Q15_SCALE  15
+#define CORDIC_ONE_Q15    (1 << CORDIC_Q15_SCALE)
